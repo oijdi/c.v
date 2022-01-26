@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-wrap: wrap;
 }
 .container{
     position: relative;
@@ -142,4 +143,12 @@ body{
 .skills .fa-css3-alt{
     color: rgb(8, 150, 245);
     font-size: 2em;
+}
+@media screen and (max-width:500px) {
+    .left-side{
+        width: 100%;
+    }
+    .container{
+        grid-template-columns: none;
+    }
 }
