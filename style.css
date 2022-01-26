@@ -135,3 +135,11 @@ body{
 .pskills {
     color: #003147;
 }
+.skills .fa-html5{
+    color: orangered;
+    font-size: 2em;
+}
+.skills .fa-css3-alt{
+    color: rgb(8, 150, 245);
+    font-size: 2em;
+}
